@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F07F22812D7B294D00AA34D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07F22672D7B294B00AA34D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07F226E2D7B294B00AA34D7;
+			remoteInfo = "com.strathweb.phi-mlx-sample";
+		};
+		F07F228B2D7B294E00AA34D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07F22672D7B294B00AA34D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07F226E2D7B294B00AA34D7;
+			remoteInfo = "com.strathweb.phi-mlx-sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F07F226F2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "com.strathweb.phi-mlx-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F22802D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "com.strathweb.phi-mlx-sampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07F228A2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "com.strathweb.phi-mlx-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F07F22712D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "com.strathweb.phi-mlx-sample";
+			sourceTree = "<group>";
+		};
+		F07F22832D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "com.strathweb.phi-mlx-sampleTests";
+			sourceTree = "<group>";
+		};
+		F07F228D2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "com.strathweb.phi-mlx-sampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07F226C2D7B294B00AA34D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F227D2D7B294D00AA34D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F22872D7B294E00AA34D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F07F22662D7B294B00AA34D7 = {
+			isa = PBXGroup;
+			children = (
+				F07F22712D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */,
+				F07F22832D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */,
+				F07F228D2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */,
+				F07F22702D7B294B00AA34D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F07F22702D7B294B00AA34D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07F226F2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample.app */,
+				F07F22802D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests.xctest */,
+				F07F228A2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07F226E2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F22942D7B294E00AA34D7 /* Build configuration list for PBXNativeTarget "com.strathweb.phi-mlx-sample" */;
+			buildPhases = (
+				F07F226B2D7B294B00AA34D7 /* Sources */,
+				F07F226C2D7B294B00AA34D7 /* Frameworks */,
+				F07F226D2D7B294B00AA34D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F07F22712D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */,
+			);
+			name = "com.strathweb.phi-mlx-sample";
+			packageProductDependencies = (
+			);
+			productName = "com.strathweb.phi-mlx-sample";
+			productReference = F07F226F2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07F227F2D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F22972D7B294E00AA34D7 /* Build configuration list for PBXNativeTarget "com.strathweb.phi-mlx-sampleTests" */;
+			buildPhases = (
+				F07F227C2D7B294D00AA34D7 /* Sources */,
+				F07F227D2D7B294D00AA34D7 /* Frameworks */,
+				F07F227E2D7B294D00AA34D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07F22822D7B294D00AA34D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F07F22832D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */,
+			);
+			name = "com.strathweb.phi-mlx-sampleTests";
+			packageProductDependencies = (
+			);
+			productName = "com.strathweb.phi-mlx-sampleTests";
+			productReference = F07F22802D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F07F22892D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07F229A2D7B294E00AA34D7 /* Build configuration list for PBXNativeTarget "com.strathweb.phi-mlx-sampleUITests" */;
+			buildPhases = (
+				F07F22862D7B294E00AA34D7 /* Sources */,
+				F07F22872D7B294E00AA34D7 /* Frameworks */,
+				F07F22882D7B294E00AA34D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07F228C2D7B294E00AA34D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F07F228D2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */,
+			);
+			name = "com.strathweb.phi-mlx-sampleUITests";
+			packageProductDependencies = (
+			);
+			productName = "com.strathweb.phi-mlx-sampleUITests";
+			productReference = F07F228A2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07F22672D7B294B00AA34D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F07F226E2D7B294B00AA34D7 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F07F227F2D7B294D00AA34D7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F07F226E2D7B294B00AA34D7;
+					};
+					F07F22892D7B294E00AA34D7 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F07F226E2D7B294B00AA34D7;
+					};
+				};
+			};
+			buildConfigurationList = F07F226A2D7B294B00AA34D7 /* Build configuration list for PBXProject "com.strathweb.phi-mlx-sample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F07F22662D7B294B00AA34D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F07F22702D7B294B00AA34D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07F226E2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */,
+				F07F227F2D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */,
+				F07F22892D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07F226D2D7B294B00AA34D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F227E2D7B294D00AA34D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F22882D7B294E00AA34D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07F226B2D7B294B00AA34D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F227C2D7B294D00AA34D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07F22862D7B294E00AA34D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F07F22822D7B294D00AA34D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07F226E2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */;
+			targetProxy = F07F22812D7B294D00AA34D7 /* PBXContainerItemProxy */;
+		};
+		F07F228C2D7B294E00AA34D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07F226E2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */;
+			targetProxy = F07F228B2D7B294E00AA34D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F07F22922D7B294E00AA34D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F07F22932D7B294E00AA34D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F07F22952D7B294E00AA34D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "com.strathweb.phi-mlx-sample/com_strathweb_phi_mlx_sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"com.strathweb.phi-mlx-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = MMTMCT9H7E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F07F22962D7B294E00AA34D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "com.strathweb.phi-mlx-sample/com_strathweb_phi_mlx_sample.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"com.strathweb.phi-mlx-sample/Preview Content\"";
+				DEVELOPMENT_TEAM = MMTMCT9H7E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F07F22982D7B294E00AA34D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMTMCT9H7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.strathweb.phi-mlx-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/com.strathweb.phi-mlx-sample";
+			};
+			name = Debug;
+		};
+		F07F22992D7B294E00AA34D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMTMCT9H7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.strathweb.phi-mlx-sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/com.strathweb.phi-mlx-sample";
+			};
+			name = Release;
+		};
+		F07F229B2D7B294E00AA34D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMTMCT9H7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "com.strathweb.phi-mlx-sample";
+			};
+			name = Debug;
+		};
+		F07F229C2D7B294E00AA34D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MMTMCT9H7E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "com.strathweb.phi-mlx-sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07F226A2D7B294B00AA34D7 /* Build configuration list for PBXProject "com.strathweb.phi-mlx-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F22922D7B294E00AA34D7 /* Debug */,
+				F07F22932D7B294E00AA34D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F22942D7B294E00AA34D7 /* Build configuration list for PBXNativeTarget "com.strathweb.phi-mlx-sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F22952D7B294E00AA34D7 /* Debug */,
+				F07F22962D7B294E00AA34D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F22972D7B294E00AA34D7 /* Build configuration list for PBXNativeTarget "com.strathweb.phi-mlx-sampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F22982D7B294E00AA34D7 /* Debug */,
+				F07F22992D7B294E00AA34D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07F229A2D7B294E00AA34D7 /* Build configuration list for PBXNativeTarget "com.strathweb.phi-mlx-sampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07F229B2D7B294E00AA34D7 /* Debug */,
+				F07F229C2D7B294E00AA34D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F07F22672D7B294B00AA34D7 /* Project object */;
+}

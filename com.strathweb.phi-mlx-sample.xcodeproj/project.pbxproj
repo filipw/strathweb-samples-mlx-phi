@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F07F22A42D7B32A200AA34D7 /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = F07F22A32D7B32A200AA34D7 /* MLXLLM */; };
+		F07F22A62D7B32A200AA34D7 /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = F07F22A52D7B32A200AA34D7 /* MLXLMCommon */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F07F22812D7B294D00AA34D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -35,16 +40,6 @@
 			path = "com.strathweb.phi-mlx-sample";
 			sourceTree = "<group>";
 		};
-		F07F22832D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "com.strathweb.phi-mlx-sampleTests";
-			sourceTree = "<group>";
-		};
-		F07F228D2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "com.strathweb.phi-mlx-sampleUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07F22A62D7B32A200AA34D7 /* MLXLMCommon in Frameworks */,
+				F07F22A42D7B32A200AA34D7 /* MLXLLM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				F07F22712D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample */,
-				F07F22832D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */,
-				F07F228D2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */,
 				F07F22702D7B294B00AA34D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +107,8 @@
 			);
 			name = "com.strathweb.phi-mlx-sample";
 			packageProductDependencies = (
+				F07F22A32D7B32A200AA34D7 /* MLXLLM */,
+				F07F22A52D7B32A200AA34D7 /* MLXLMCommon */,
 			);
 			productName = "com.strathweb.phi-mlx-sample";
 			productReference = F07F226F2D7B294B00AA34D7 /* com.strathweb.phi-mlx-sample.app */;
@@ -129,9 +126,6 @@
 			);
 			dependencies = (
 				F07F22822D7B294D00AA34D7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F07F22832D7B294D00AA34D7 /* com.strathweb.phi-mlx-sampleTests */,
 			);
 			name = "com.strathweb.phi-mlx-sampleTests";
 			packageProductDependencies = (
@@ -152,9 +146,6 @@
 			);
 			dependencies = (
 				F07F228C2D7B294E00AA34D7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F07F228D2D7B294E00AA34D7 /* com.strathweb.phi-mlx-sampleUITests */,
 			);
 			name = "com.strathweb.phi-mlx-sampleUITests";
 			packageProductDependencies = (
@@ -195,6 +186,9 @@
 			);
 			mainGroup = F07F22662D7B294B00AA34D7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F07F22A22D7B32A200AA34D7 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F07F22702D7B294B00AA34D7 /* Products */;
 			projectDirPath = "";
@@ -409,8 +403,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -436,8 +433,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "strathweb.com-strathweb-phi-mlx-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -549,6 +549,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F07F22A22D7B32A200AA34D7 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-examples";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.21.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F07F22A32D7B32A200AA34D7 /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F07F22A22D7B32A200AA34D7 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MLXLLM;
+		};
+		F07F22A52D7B32A200AA34D7 /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F07F22A22D7B32A200AA34D7 /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MLXLMCommon;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F07F22672D7B294B00AA34D7 /* Project object */;
 }

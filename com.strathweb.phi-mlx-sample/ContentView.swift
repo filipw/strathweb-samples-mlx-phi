@@ -83,7 +83,7 @@ struct ContentView: View {
                     .padding(.bottom)
                 }
             }
-        }.navigationTitle("Phi-3 Assistant")
+        }.navigationTitle("Phi Sample")
     }
 }
 

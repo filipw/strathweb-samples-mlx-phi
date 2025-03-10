@@ -31,14 +31,14 @@ class PhiViewModel: ObservableObject {
             MLX.GPU.set(cacheLimit: 20 * 1024 * 1024)
             
             // Phi 3.5 mini is preconfigured in Swift MLX Examples
-            let modelConfig = ModelRegistry.phi3_5_4bit
+            //let modelConfig = ModelRegistry.phi3_5_4bit
             
             // Phi 4 mini can be pulled from Hugging Face, but requires referencing Swift MLX Examples from the main branch
-//            let modelConfig = ModelConfiguration(
-//                id: "mlx-community/Phi-4-mini-instruct-4bit",
-//                defaultPrompt: "You are a helpful assistant.",
-//                extraEOSTokens: ["<|end|>"]
-//            )
+            let modelConfig = ModelConfiguration(
+                id: "mlx-community/Phi-4-mini-instruct-4bit",
+                defaultPrompt: "You are a helpful assistant.",
+                extraEOSTokens: ["<|end|>"]
+            )
             
             print("Loading \(modelConfig.name)...")
             self.modelContainer = try await LLMModelFactory.shared.loadContainer(
